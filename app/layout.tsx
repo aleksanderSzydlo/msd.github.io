@@ -9,6 +9,11 @@ export const metadata: Metadata = {
     "MSD ARCHITEKCI Sp. z o.o. – pracownia projektowa założona w 2014 roku. Projekty indywidualne, adaptacje, analizy działek. Sosnowiec.",
   keywords:
     "architekt, pracownia architektoniczna, projekt domu, Sosnowiec, MSD Architekci",
+  icons: {
+    icon: [{ url: "favicon.svg", type: "image/svg+xml" }],
+    shortcut: "favicon.svg",
+    apple: "favicon.svg",
+  },
 };
 
 export default function RootLayout({

@@ -32,24 +32,12 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo */}
-          <a href="#" className="flex flex-col leading-tight">
-            <span
-              className={cn(
-                "text-lg font-bold tracking-widest uppercase transition-colors",
-                isScrolled ? "text-neutral-900" : "text-white"
-              )}
-            >
-              MSD
-            </span>
-            <span
-              className={cn(
-                "text-xs font-light tracking-[0.3em] uppercase transition-colors",
-                isScrolled ? "text-neutral-600" : "text-white/80"
-              )}
-            >
-              Architekci
-            </span>
+          <a href="#" className="block" aria-label="MSD Architekci">
+            <img
+              src={isScrolled ? "logo-dark.svg" : "logo-light.svg"}
+              alt="MSD Architekci"
+              className="h-9 lg:h-10 w-auto transition-opacity duration-300"
+            />
           </a>
 
           {/* Desktop Nav */}

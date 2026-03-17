@@ -34,9 +34,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#" className="block" aria-label="MSD Architekci">
             <img
-              src={isScrolled ? "logo-dark.svg" : "logo-light.svg"}
+              src="logoMSD.jpg"
               alt="MSD Architekci"
-              className="h-9 lg:h-10 w-auto transition-opacity duration-300"
+              className="h-10 lg:h-12 w-auto"
             />
           </a>
 

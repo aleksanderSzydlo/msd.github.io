@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   keywords:
     "architekt, pracownia architektoniczna, projekt domu, Sosnowiec, MSD Architekci",
   icons: {
-    icon: [{ url: "favicon.svg", type: "image/svg+xml" }],
-    shortcut: "favicon.svg",
-    apple: "favicon.svg",
+    icon: [{ url: "logoMSD.jpg", type: "image/jpeg" }],
+    shortcut: "logoMSD.jpg",
+    apple: "logoMSD.jpg",
   },
 };
 

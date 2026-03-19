@@ -33,6 +33,13 @@ jobs:
       - name: Build static export
         run: npm run build
 
+      - name: Copy mockups into export
+        run: |
+          if [ -d ./mockups ]; then
+            mkdir -p ./out/mockups
+            cp -R ./mockups/* ./out/mockups/
+          fi
+
       - name: Disable Jekyll
         run: touch ./out/.nojekyll
 
